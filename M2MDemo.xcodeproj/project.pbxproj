@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62F944EE19EB677E0032F3B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F944ED19EB677E0032F3B0 /* main.m */; };
+		62F944F119EB677E0032F3B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F944F019EB677E0032F3B0 /* AppDelegate.m */; };
+		62F944F319EB677E0032F3B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F944F219EB677E0032F3B0 /* Images.xcassets */; };
+		62F944F619EB677E0032F3B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F944F419EB677E0032F3B0 /* MainMenu.xib */; };
+		62F9450219EB677F0032F3B0 /* M2MDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F9450119EB677F0032F3B0 /* M2MDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F944FC19EB677F0032F3B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F944E019EB677E0032F3B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F944E719EB677E0032F3B0;
+			remoteInfo = M2MDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62F944E819EB677E0032F3B0 /* M2MDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2MDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F944EC19EB677E0032F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F944ED19EB677E0032F3B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F944EF19EB677E0032F3B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F944F019EB677E0032F3B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F944F219EB677E0032F3B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		62F944F519EB677E0032F3B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		62F944FB19EB677F0032F3B0 /* M2MDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2MDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F9450019EB677F0032F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F9450119EB677F0032F3B0 /* M2MDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2MDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F944E519EB677E0032F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F944F819EB677F0032F3B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F944DF19EB677E0032F3B0 = {
+			isa = PBXGroup;
+			children = (
+				62F944EA19EB677E0032F3B0 /* M2MDemo */,
+				62F944FE19EB677F0032F3B0 /* M2MDemoTests */,
+				62F944E919EB677E0032F3B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F944E919EB677E0032F3B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F944E819EB677E0032F3B0 /* M2MDemo.app */,
+				62F944FB19EB677F0032F3B0 /* M2MDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F944EA19EB677E0032F3B0 /* M2MDemo */ = {
+			isa = PBXGroup;
+			children = (
+				62F944EF19EB677E0032F3B0 /* AppDelegate.h */,
+				62F944F019EB677E0032F3B0 /* AppDelegate.m */,
+				62F944F219EB677E0032F3B0 /* Images.xcassets */,
+				62F944F419EB677E0032F3B0 /* MainMenu.xib */,
+				62F944EB19EB677E0032F3B0 /* Supporting Files */,
+			);
+			path = M2MDemo;
+			sourceTree = "<group>";
+		};
+		62F944EB19EB677E0032F3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F944EC19EB677E0032F3B0 /* Info.plist */,
+				62F944ED19EB677E0032F3B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F944FE19EB677F0032F3B0 /* M2MDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F9450119EB677F0032F3B0 /* M2MDemoTests.m */,
+				62F944FF19EB677F0032F3B0 /* Supporting Files */,
+			);
+			path = M2MDemoTests;
+			sourceTree = "<group>";
+		};
+		62F944FF19EB677F0032F3B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F9450019EB677F0032F3B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F944E719EB677E0032F3B0 /* M2MDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F9450519EB677F0032F3B0 /* Build configuration list for PBXNativeTarget "M2MDemo" */;
+			buildPhases = (
+				62F944E419EB677E0032F3B0 /* Sources */,
+				62F944E519EB677E0032F3B0 /* Frameworks */,
+				62F944E619EB677E0032F3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M2MDemo;
+			productName = M2MDemo;
+			productReference = 62F944E819EB677E0032F3B0 /* M2MDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F944FA19EB677F0032F3B0 /* M2MDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F9450819EB677F0032F3B0 /* Build configuration list for PBXNativeTarget "M2MDemoTests" */;
+			buildPhases = (
+				62F944F719EB677F0032F3B0 /* Sources */,
+				62F944F819EB677F0032F3B0 /* Frameworks */,
+				62F944F919EB677F0032F3B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F944FD19EB677F0032F3B0 /* PBXTargetDependency */,
+			);
+			name = M2MDemoTests;
+			productName = M2MDemoTests;
+			productReference = 62F944FB19EB677F0032F3B0 /* M2MDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F944E019EB677E0032F3B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ishida;
+				TargetAttributes = {
+					62F944E719EB677E0032F3B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					62F944FA19EB677F0032F3B0 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 62F944E719EB677E0032F3B0;
+					};
+				};
+			};
+			buildConfigurationList = 62F944E319EB677E0032F3B0 /* Build configuration list for PBXProject "M2MDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F944DF19EB677E0032F3B0;
+			productRefGroup = 62F944E919EB677E0032F3B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F944E719EB677E0032F3B0 /* M2MDemo */,
+				62F944FA19EB677F0032F3B0 /* M2MDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F944E619EB677E0032F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F944F319EB677E0032F3B0 /* Images.xcassets in Resources */,
+				62F944F619EB677E0032F3B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F944F919EB677F0032F3B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F944E419EB677E0032F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F944F119EB677E0032F3B0 /* AppDelegate.m in Sources */,
+				62F944EE19EB677E0032F3B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F944F719EB677F0032F3B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F9450219EB677F0032F3B0 /* M2MDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F944FD19EB677F0032F3B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F944E719EB677E0032F3B0 /* M2MDemo */;
+			targetProxy = 62F944FC19EB677F0032F3B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F944F419EB677E0032F3B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F944F519EB677E0032F3B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F9450319EB677F0032F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		62F9450419EB677F0032F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		62F9450619EB677F0032F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = M2MDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62F9450719EB677F0032F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = M2MDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62F9450919EB677F0032F3B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = M2MDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M2MDemo.app/Contents/MacOS/M2MDemo";
+			};
+			name = Debug;
+		};
+		62F9450A19EB677F0032F3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = M2MDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/M2MDemo.app/Contents/MacOS/M2MDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F944E319EB677E0032F3B0 /* Build configuration list for PBXProject "M2MDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F9450319EB677F0032F3B0 /* Debug */,
+				62F9450419EB677F0032F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F9450519EB677F0032F3B0 /* Build configuration list for PBXNativeTarget "M2MDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F9450619EB677F0032F3B0 /* Debug */,
+				62F9450719EB677F0032F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		62F9450819EB677F0032F3B0 /* Build configuration list for PBXNativeTarget "M2MDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F9450919EB677F0032F3B0 /* Debug */,
+				62F9450A19EB677F0032F3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F944E019EB677E0032F3B0 /* Project object */;
+}
