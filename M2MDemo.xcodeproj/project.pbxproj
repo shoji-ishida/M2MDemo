@@ -12,6 +12,9 @@
 		62F944F319EB677E0032F3B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62F944F219EB677E0032F3B0 /* Images.xcassets */; };
 		62F944F619EB677E0032F3B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62F944F419EB677E0032F3B0 /* MainMenu.xib */; };
 		62F9450219EB677F0032F3B0 /* M2MDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F9450119EB677F0032F3B0 /* M2MDemoTests.m */; };
+		62F9450C19EB694F0032F3B0 /* MBCBeaconAdvertisementData.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F9450B19EB694F0032F3B0 /* MBCBeaconAdvertisementData.m */; };
+		62F9450F19EB7DBF0032F3B0 /* ApplianceList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62F9450E19EB7DBF0032F3B0 /* ApplianceList.plist */; };
+		62F9451419EC27A30032F3B0 /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F9451319EC27A30032F3B0 /* IOBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 		62F944FB19EB677F0032F3B0 /* M2MDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2MDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62F9450019EB677F0032F3B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62F9450119EB677F0032F3B0 /* M2MDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2MDemoTests.m; sourceTree = "<group>"; };
+		62F9450B19EB694F0032F3B0 /* MBCBeaconAdvertisementData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCBeaconAdvertisementData.m; sourceTree = "<group>"; };
+		62F9450D19EB695E0032F3B0 /* MBCBeaconAdvertisementData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCBeaconAdvertisementData.h; sourceTree = "<group>"; };
+		62F9450E19EB7DBF0032F3B0 /* ApplianceList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ApplianceList.plist; sourceTree = "<group>"; };
+		62F9451319EC27A30032F3B0 /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F9451419EC27A30032F3B0 /* IOBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +66,7 @@
 		62F944DF19EB677E0032F3B0 = {
 			isa = PBXGroup;
 			children = (
+				62F9451319EC27A30032F3B0 /* IOBluetooth.framework */,
 				62F944EA19EB677E0032F3B0 /* M2MDemo */,
 				62F944FE19EB677F0032F3B0 /* M2MDemoTests */,
 				62F944E919EB677E0032F3B0 /* Products */,
@@ -76,6 +85,8 @@
 		62F944EA19EB677E0032F3B0 /* M2MDemo */ = {
 			isa = PBXGroup;
 			children = (
+				62F9450D19EB695E0032F3B0 /* MBCBeaconAdvertisementData.h */,
+				62F9450B19EB694F0032F3B0 /* MBCBeaconAdvertisementData.m */,
 				62F944EF19EB677E0032F3B0 /* AppDelegate.h */,
 				62F944F019EB677E0032F3B0 /* AppDelegate.m */,
 				62F944F219EB677E0032F3B0 /* Images.xcassets */,
@@ -90,6 +101,7 @@
 			children = (
 				62F944EC19EB677E0032F3B0 /* Info.plist */,
 				62F944ED19EB677E0032F3B0 /* main.m */,
+				62F9450E19EB7DBF0032F3B0 /* ApplianceList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -191,6 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62F9450F19EB7DBF0032F3B0 /* ApplianceList.plist in Resources */,
 				62F944F319EB677E0032F3B0 /* Images.xcassets in Resources */,
 				62F944F619EB677E0032F3B0 /* MainMenu.xib in Resources */,
 			);
@@ -212,6 +225,7 @@
 			files = (
 				62F944F119EB677E0032F3B0 /* AppDelegate.m in Sources */,
 				62F944EE19EB677E0032F3B0 /* main.m in Sources */,
+				62F9450C19EB694F0032F3B0 /* MBCBeaconAdvertisementData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +412,7 @@
 				62F9450719EB677F0032F3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62F9450819EB677F0032F3B0 /* Build configuration list for PBXNativeTarget "M2MDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +421,7 @@
 				62F9450A19EB677F0032F3B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

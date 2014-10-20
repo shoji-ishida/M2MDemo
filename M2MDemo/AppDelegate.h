@@ -7,8 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import <AppKit/AppKit.h>
+#import <IOBluetooth/IOBluetooth.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import "MBCBeaconAdvertisementData.h"
+
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSComboBoxDelegate, CBPeripheralManagerDelegate>
 
 
 @end
