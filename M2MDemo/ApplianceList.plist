@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>洗濯機</string>
+		<key>msgs</key>
+		<array>
+			<string>洗濯終了</string>
+			<string>乾燥終了</string>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>コーヒーメーカー</string>
+		<key>msgs</key>
+		<array>
+			<string>豆引き終了</string>
+			<string>ドリップ終了</string>
+			<string>水不足</string>
+		</array>
+	</dict>
+</array>
+</plist>
